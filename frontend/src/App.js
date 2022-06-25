@@ -1,10 +1,12 @@
 import './App.css';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import Disclaimer from './components/Disclaimer';
 import TopHeader from './components/TopHeader';
 import Gallery from './components/Gallery';
 function App() {
   return (
     <>
+      <Disclaimer />
       <div className="NavigationBar navbar-dark">
         <Navbar bg="black"
         sticky="top" 
@@ -29,7 +31,7 @@ function App() {
 
         </Navbar>
       </div>
-      
+  
       <Gallery />
     </>
   );
