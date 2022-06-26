@@ -1,3 +1,4 @@
+/*Disclaimer.js*/
 .TopDisclaimer {
   align-items: center;
   display: flex;
@@ -6,13 +7,9 @@
   width: 100%;
 }
 
+/*TopNavigation.js*/
 .navbar-brand {
   max-width: 500px;
-}
-
-.NavButton {
-  align-items: center;
-  justify-content: center;
 }
 
 .navbar-toggler {
@@ -23,13 +20,29 @@
   width: 100%;
 }
 
+
+/*Information.js*/
+.InfoPicture {
+  
+}
+
+/*@Media*/
 @media (min-width: 1200px) {
   .TopDisclaimer {
     font-size: 20px;
-    padding: 5px 0px 5px 0px;
   }
+
   .NavButton {
     font-size: 30px;
+  }
+
+  .MainContainer {
+    padding: 50px;
+  }
+  .InfoLeft {
+    align-items: center;
+    font-size: 2.25vh;
+    padding-left: 50px;
   }
 }
 
@@ -38,6 +51,7 @@
     font-size: 12px;
     padding: 2px 0px 2px 0px;
   }
+
   .NavButton {
     font-size: 20px;
   }

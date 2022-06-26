@@ -7,7 +7,7 @@ const TopNavigation = () => {
             <div className="NavigationBar navbar-dark">
                 <Navbar bg="black"
                     sticky="top"
-                    expand="md"
+                    expand="lg"
                     collapseOnSelect>
                     <Navbar.Brand>
                         <img src="https://cdn.discordapp.com/attachments/978388869131165736/987971273500004382/RefinedW.png"
