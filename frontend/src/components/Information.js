@@ -2,23 +2,13 @@ import React from 'react';
 const Information = () => {
     return (
         <>
-        <div className="InfoContainer container-fluid">
-            <div class="MainContainer row">
-                <div className="InfoLeft col-4 d-flex">
-                    <p className="InfoLeft"><strong>RefinedSzn</strong>
-                    <p>We're a group of automotive enthusiast friends who came together to create a team of unique car builds. We love to hang out on the weekends and mob together to car meets whenever one pops up.
-                    <p></p>
-                    <p>Our squad is very well known in the streets of Houston's Chinatown.</p>
-                    </p>
-                    </p>
-                </div>
-                <div className="col-8 d-flex justify-content-center">
-                        <img src="https://cdn.discordapp.com/attachments/989767720801304606/990500758715781181/unknown.png"
-                        className="d-block w-100"
-                        alt="Picture of the Crew" />
-                </div>
+            <div className="d-flex align-items-center justify-content-center">
+                <figure>
+                    <figcaption className="StickerCaption d-flex justify-content-center">---</figcaption>
+                    <img className="d-block w-75 p-3 mx-auto"
+                        src="https://www.technoloxy.com/wp-content/uploads/2020/08/Valorant-Dead.png" />
+                    <figcaption className="StickerCaption d-flex justify-content-center">empty portion, will add an info section later</figcaption></figure>
             </div>
-        </div>
         </>
     );
 }
