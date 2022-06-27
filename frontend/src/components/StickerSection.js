@@ -11,7 +11,7 @@ const StickerSection = () => {
                         <figure className="">
                             <img className="d-block w-75 p-3 mx-auto"
                             src="https://cdn.discordapp.com/attachments/989767720801304606/990852269895454810/unknown.png"/>
-                            <figcaption className="StickerCaption d-flex justify-content-center">Refined Windshield Banner 12"</figcaption>
+                            <figcaption className="StickerCaption d-flex justify-content-center">Refined Windshield Banner 20"</figcaption>
                             <figcaption className="StickerCaption d-flex justify-content-center">$10.00</figcaption>
                         </figure>
                     </div>
