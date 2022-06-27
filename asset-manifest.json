@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RefinedSzn-Project/static/css/main.629a5393.css",
+    "main.js": "/RefinedSzn-Project/static/js/main.ef29d792.js",
+    "index.html": "/RefinedSzn-Project/index.html",
+    "main.629a5393.css.map": "/RefinedSzn-Project/static/css/main.629a5393.css.map",
+    "main.ef29d792.js.map": "/RefinedSzn-Project/static/js/main.ef29d792.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.629a5393.css",
+    "static/js/main.ef29d792.js"
+  ]
+}
