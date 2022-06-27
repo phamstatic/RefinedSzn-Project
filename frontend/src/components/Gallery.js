@@ -26,6 +26,34 @@ const Gallery = () => {
                         alt="John's Camry"
                     />
                 </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="https://cdn.discordapp.com/attachments/989767720801304606/990869518588969070/unknown.png"
+                        alt="Vy's IS350"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="https://cdn.discordapp.com/attachments/989767720801304606/990868753057202226/unknown.png"
+                        alt="Chris's BRZ"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="https://cdn.discordapp.com/attachments/989767720801304606/990867760450007070/unknown.png"
+                        alt="Daniel's Q60"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="https://cdn.discordapp.com/attachments/989767720801304606/990871003401961512/unknown.png"
+                        alt="Jojo's GS350 and Chris's BRZ"
+                    />
+                </Carousel.Item>
             </Carousel>
         </>
     );
