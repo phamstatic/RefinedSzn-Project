@@ -14,12 +14,16 @@
 
 .navbar-toggler {
   display: flex;
-  height: 100%;
+  height:100%;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
+.navbar-nav {
+  align-items: center;
+  justify-content: center;
+}
 
 /*StickerSection.js*/
 .StickerHeader {
@@ -39,6 +43,8 @@
   display: flex;
   align-items: center;
   justify-content: center;  
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 /*@Media*/
@@ -68,5 +74,17 @@
 
   .NavButton {
     font-size: 20px;
+  }
+
+  .StickerRow {
+    padding: 10px 0px 0px 0px;
+  }
+
+  .StickerHeader {
+    font-size: 5vw;
+  }
+  
+  .StickerCaption {
+    font-size: 2.5vw;
   }
 }
