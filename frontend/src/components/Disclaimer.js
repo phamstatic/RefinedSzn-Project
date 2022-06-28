@@ -3,7 +3,7 @@ import React from 'react';
 const Disclaimer = () => {
     return (
         <>
-            <div className="TopDisclaimer container-fluid bg-light">This website is still being developed by @phamstatic!</div>
+            <div className="TopDisclaimer container-fluid bg-light">I'm still working on it ;-;</div>
         </>
     );
 }

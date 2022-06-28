@@ -4,6 +4,7 @@ import TopNavigation from './components/TopNavigation';
 import Gallery from './components/Gallery';
 import StickerSection from './components/StickerSection';
 import Information from './components/Information';
+import Placeholder from './components/Placeholder';
 import Footer from './components/Footer';
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
       <Disclaimer />
       <TopNavigation />
       <Gallery />
-      <StickerSection />
       <Information />
+      <StickerSection />
+      <Placeholder />
       <Footer />
     </>
   );

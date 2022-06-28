@@ -2,12 +2,15 @@ import React from 'react';
 const Information = () => {
     return (
         <>
-            <div className="d-flex align-items-center justify-content-center">
-                <figure>
-                    <figcaption className="StickerCaption d-flex justify-content-center">---</figcaption>
-                    <img className="d-block w-75 p-3 mx-auto"
-                        src="https://www.technoloxy.com/wp-content/uploads/2020/08/Valorant-Dead.png" />
-                    <figcaption className="StickerCaption d-flex justify-content-center">empty portion, will add an info section later</figcaption></figure>
+            <div className="InfoContainer container-fluid">
+                <img
+                    className="InfoImageMobile d-block w-100"
+                    src="https://cdn.discordapp.com/attachments/989767720801304606/991227339423879198/unknown.png"
+                />
+                <div class="InfoImageMobileText">
+                    <div className="InfoImageHeader"><strong>RefinedSzn</strong></div>
+                    <div>We're a group of automotive enthusiast friends who came together to create a team of unique car builds. We love to hang out on the weekends and mob together to car meets.</div>
+                </div>
             </div>
         </>
     );
