@@ -4,6 +4,8 @@ import TopNavigation from './components/TopNavigation';
 import Gallery from './components/Gallery';
 import StickerSection from './components/StickerSection';
 import Information from './components/Information';
+import Footer from './components/Footer';
+
 function App() {
   return (
     <>
@@ -12,6 +14,7 @@ function App() {
       <Gallery />
       <StickerSection />
       <Information />
+      <Footer />
     </>
   );
 }

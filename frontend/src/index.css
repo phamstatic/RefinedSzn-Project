@@ -1,3 +1,6 @@
+div {
+  font-family: "Verdana", "Helvetica", "Arial";
+}
 /*Disclaimer.js*/
 .TopDisclaimer {
   align-items: center;
@@ -47,6 +50,10 @@
   margin: 0 !important;
 }
 
+/*Footer.js*/
+.footer-copyright {
+  color: white;
+}
 /*@Media*/
 @media (min-width: 1200px) {
   .TopDisclaimer {
