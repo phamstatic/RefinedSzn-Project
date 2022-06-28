@@ -43,6 +43,7 @@ div {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
 }
 /*StickerSection.js*/
 .StickerHeader {
@@ -117,5 +118,6 @@ div {
 
   .InfoImageMobileText {
     font-size: 12px;
+    width: 80%;
   }
 }
