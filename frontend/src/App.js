@@ -5,6 +5,7 @@ import Gallery from './components/Gallery';
 import StickerSection from './components/StickerSection';
 import Information from './components/Information';
 import Placeholder from './components/Placeholder';
+import Roster from './components/Roster';
 import Footer from './components/Footer';
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <Gallery />
       <Information />
       <StickerSection />
-      <Placeholder />
+      <Roster />
       <Footer />
     </>
   );

@@ -67,6 +67,19 @@ div {
   margin: 0 !important;
 }
 
+/*Roster.js*/
+.RosterRow {
+  padding: 50px 0px 20px 0px;
+}
+
+.RosterHeader {
+  color: black;
+  font-size: 1.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*Footer.js*/
 .footer-copyright {
   color: white;
@@ -108,7 +121,7 @@ div {
     padding: 10px 0px 0px 0px;
   }
 
-  .StickerHeader {
+  .StickerHeader .RosterHeader {
     font-size: 5vw;
   }
   
