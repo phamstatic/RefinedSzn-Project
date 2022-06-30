@@ -1,24 +1,19 @@
 import './App.css';
-import Disclaimer from './components/Disclaimer';
-import TopNavigation from './components/TopNavigation';
-import Gallery from './components/Gallery';
-import StickerSection from './components/StickerSection';
-import Information from './components/Information';
-import Placeholder from './components/Placeholder';
-import Roster from './components/Roster';
-import Footer from './components/Footer';
+
+import { BrowserRouter, Routes, Route, Switch, Link, Redirect } from "react-router-dom";
+
+import Home from "./pages/index"
+import About from "./pages/About"
 
 function App() {
   return (
-    <>
-      <Disclaimer />
-      <TopNavigation />
-      <Gallery />
-      <Information />
-      <StickerSection />
-      <Roster />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='about' element={<About />}/>
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 
