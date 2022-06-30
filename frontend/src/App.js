@@ -5,6 +5,14 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/index"
 import About from "./pages/About"
 
+//Temporary
+import Disclaimer from './components/Disclaimer';
+import TopNavigation from './components/TopNavigation';
+import Gallery from './components/Gallery';
+import Information from './components/Information';
+import StickerSection from './components/StickerSection';
+import Footer from './components/Footer';
+
 function App() {
   return (
 
@@ -18,7 +26,12 @@ function App() {
     */
    
     <>
-    <Home />
+    <Disclaimer />
+    <TopNavigation />
+    <Gallery />
+    <Information />
+    <StickerSection />
+    <Footer />
     </>
 
   );
