@@ -1,18 +1,25 @@
 import './App.css';
 
-import { BrowserRouter, Routes, Route, Switch, Link, Redirect } from "react-router-dom";
-
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+//Pages
 import Home from "./pages/index"
 import About from "./pages/About"
 
 function App() {
   return (
-    <BrowserRouter>
+
+        /*
+    <Router>
       <Routes>
         <Route path='/' element={<Home />}/>
-        <Route path='about' element={<About />}/>
+        <Route path='/About' element={<About />}/>
       </Routes>
-    </BrowserRouter>
+    </Router>
+    */
+   
+    <>
+    <Home />
+    </>
 
   );
 }
