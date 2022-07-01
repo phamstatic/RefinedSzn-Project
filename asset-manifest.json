@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/RefinedSzn-Project/static/css/main.8fcf4511.css",
-    "main.js": "/RefinedSzn-Project/static/js/main.76414685.js",
+    "main.js": "/RefinedSzn-Project/static/js/main.c9ad6dc4.js",
     "index.html": "/RefinedSzn-Project/index.html",
     "main.8fcf4511.css.map": "/RefinedSzn-Project/static/css/main.8fcf4511.css.map",
-    "main.76414685.js.map": "/RefinedSzn-Project/static/js/main.76414685.js.map"
+    "main.c9ad6dc4.js.map": "/RefinedSzn-Project/static/js/main.c9ad6dc4.js.map"
   },
   "entrypoints": [
     "static/css/main.8fcf4511.css",
-    "static/js/main.76414685.js"
+    "static/js/main.c9ad6dc4.js"
   ]
 }
