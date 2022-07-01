@@ -8,9 +8,9 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router>
+  //<Router>
     <App />
-  </Router>,
+  //</Router>
 
-  document.getElementById('root')
+  ,document.getElementById('root')
 );
