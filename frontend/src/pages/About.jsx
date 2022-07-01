@@ -20,7 +20,7 @@ const About = () => {
                         <div className="AboutTitle row align-items-center justify-content-left">RefinedSzn</div>
                         <div className="AboutInfo row align-items-center justify-content-left">Founded in December of 2020, RefinedSzn started as a group of automotive enthusiast friends who came together to create a team of unique car builds. Although we've had members come and leave, what is left behind is a true unbreakable family.</div>
                         <div className="AboutInfo row align-items-center justify-content-left"><br></br></div>
-                        <div className="AboutInfo row align-items-center justify-content-left">Founded in December of 2020, RefinedSzn started as a group of automotive enthusiast friends who came together to create a team of unique car builds. Although we've had members come and leave, what is left behind is a true unbreakable family.</div>
+                        <div className="AboutInfo row align-items-center justify-content-left">We're always hanging around Houston's Chinatown, so if you see us come mob with us!</div>
                         <div className="AboutInfo row align-items-center justify-content-left"><br></br></div>
                         <div className="AboutInfo row align-items-center justify-content-left">#ComeBackSzn</div>
                     </div>

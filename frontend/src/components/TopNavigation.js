@@ -22,7 +22,6 @@ const TopNavigation = () => {
                             <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="#/About">About Us</Nav.Link>
                             <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="">Team Roster</Nav.Link>
                             <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="">Contact</Nav.Link>
-                            <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="">Account</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
 

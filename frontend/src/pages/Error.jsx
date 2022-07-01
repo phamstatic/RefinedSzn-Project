@@ -1,12 +1,14 @@
 import React from "react"
 import '../App.css';
 
+import Disclaimer from "../components/Disclaimer";
 import TopNavigation from "../components/TopNavigation";
 import Footer from "../components/Footer";
 
 const Error = () => {
     return (
         <>
+            <Disclaimer />
             <TopNavigation />
             <img
                 className="d-block w-100"
