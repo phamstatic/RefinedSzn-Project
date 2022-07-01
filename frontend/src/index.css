@@ -84,6 +84,19 @@ div {
 .footer-copyright {
   color: white;
 }
+
+/*Index.jsx*/
+.AboutColumn {
+  padding: 5vw 0vw 5vw 5vw;
+}
+.AboutTitle {
+  font-size: 1.5vw;
+}
+
+.AboutTitleTop, .AboutInfo {
+  font-size: 0.75vw;
+}
+
 /*@Media*/
 @media (min-width: 1200px) {
   .TopDisclaimer {
