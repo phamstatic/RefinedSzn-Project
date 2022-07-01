@@ -86,6 +86,9 @@ div {
 }
 
 /*Index.jsx*/
+.AboutRow {
+  padding: 0vw 5vw 5vw 5vw;
+}
 .AboutColumn {
   padding: 5vw 0vw 5vw 5vw;
 }
@@ -95,6 +98,12 @@ div {
 
 .AboutTitleTop, .AboutInfo {
   font-size: 0.75vw;
+}
+
+.AboutImage {
+  align-items: center;
+  justify-content: center;
+  padding: 5vw !important;
 }
 
 /*@Media*/
