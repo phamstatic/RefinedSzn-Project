@@ -1,6 +1,8 @@
 # RefinedSzn Project
 Developed using **JavaScript**, **HTML/CSS**, **React**, and **Bootstrap**
 
+> The running website build can be found [here](https://phamstatic.github.io/RefinedSzn-Project/).
+
 Created for my automotive enthusiast community that I founded and run, [RefinedSzn](https://www.instagram.com/refinedszn/).
 
 ## Explanation
