@@ -1,7 +1,7 @@
 div {
   font-family: "Verdana", "Helvetica", "Arial";
 }
-/*Disclaimer.js*/
+
 .TopDisclaimer {
   align-items: center;
   display: flex;
@@ -131,7 +131,7 @@ div {
 
 @media (max-width: 500px) {
   .TopDisclaimer {
-    font-size: 12px;
+    font-size: 1.25vh;
     padding: 2px 0px 2px 0px;
   }
 

@@ -4,6 +4,8 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 const TopNavigation = () => {
     return (
         <>
+            <div className="TopDisclaimer container-fluid bg-light">*At the moment, only the Home and About Us button work.*</div>
+
             <div className="NavigationBar navbar-dark">
                 <Navbar bg="black"
                     sticky="top"
