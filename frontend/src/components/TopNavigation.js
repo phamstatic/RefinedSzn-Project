@@ -1,4 +1,6 @@
 import React from 'react';
+import '../stylesheets/TopNavigation.css';
+
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
 const TopNavigation = () => {
