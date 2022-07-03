@@ -1,4 +1,6 @@
 import React from 'react';
+import '../stylesheets/Information.css';
+
 const Information = () => {
     return (
         <>
