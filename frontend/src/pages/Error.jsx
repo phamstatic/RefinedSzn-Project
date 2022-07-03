@@ -1,5 +1,4 @@
 import React from "react"
-import '../App.css';
 
 import TopNavigation from "../components/TopNavigation";
 import Footer from "../components/Footer";
