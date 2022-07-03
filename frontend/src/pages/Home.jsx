@@ -1,5 +1,5 @@
 import React from "react"
-import '../App.css';
+import '../stylesheets/Home.css';
 
 import TopNavigation from '../components/TopNavigation';
 import Gallery from '../components/Gallery';
