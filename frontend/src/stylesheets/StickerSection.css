@@ -1,0 +1,48 @@
+.StickerHeader {
+    color: white;
+    font-size: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .StickerRow {
+    padding: 50px 0px 20px 0px;
+  }
+  
+  .StickerBox {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 599px) {
+    .StickerRow {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .StickerHeader .RosterHeader {
+        font-size: 5vw;
+    }
+
+    .StickerCaption {
+        font-size: 2.5vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .StickerCaption {
+        font-size: 20px;
+    }
+}
