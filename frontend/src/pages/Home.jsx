@@ -1,10 +1,11 @@
 import React from "react"
-import '../stylesheets/Home.css';
+
 
 import TopNavigation from '../components/TopNavigation';
 import Gallery from '../components/Gallery';
 import Information from '../components/Information';
 import StickerSection from '../components/StickerSection';
+import SubRoster from '../components/SubRoster';
 import Footer from '../components/Footer';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
         <Gallery />
         <Information />
         <StickerSection />
+        <SubRoster />
         <Footer />
         </>
     );
