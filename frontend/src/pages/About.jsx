@@ -18,7 +18,7 @@ const About = () => {
                     <div className="AboutColumn col-6">
                         <div className="AboutTitleTop row align-items-center justify-content-left">OUR TEAM</div>
                         <div className="AboutTitle row align-items-center justify-content-left">RefinedSzn</div>
-                        <div className="AboutInfo row align-items-center justify-content-left">Founded in December of 2020, RefinedSzn started as a group of automotive enthusiast friends who came together to create a team of unique car builds. Although we've had members come and leave, what is left behind is a true unbreakable family.</div>
+                        <div className="AboutInfo row align-items-center justify-content-left">Founded in December of 2020, RefinedSzn started as a group of automotive enthusiast friends who came together to create a team of unique car builds. Although we've had drama in the past and new members coming and leaving, the true squad at the core always bounces back and pulls through.</div>
                         <div className="AboutInfo row align-items-center justify-content-left"><br></br></div>
                         <div className="AboutInfo row align-items-center justify-content-left">We're always hanging around Houston's Chinatown, so if you see us come mob with us!</div>
                         <div className="AboutInfo row align-items-center justify-content-left"><br></br></div>
@@ -36,8 +36,10 @@ const About = () => {
             <div className="MobileAboutContainer container-fluid">
                 <div className="MobileAboutTitleTop text-center"><br></br>OUR TEAM</div>
                 <div className="MobileAboutTitle text-center">RefinedSzn</div>
-                <div className="MobileAboutInfo text-center">Founded in December of 2020, RefinedSzn started as a group of automotive enthusiast friends who came together to create a team of unique car builds. Although we've had members come and leave, what is left behind is a true unbreakable family.
+                <div className="MobileAboutInfo text-center">Founded in December of 2020, RefinedSzn started as a group of automotive enthusiast friends who came together to create a team of unique car builds. Although we've had drama in the past and new members coming and leaving, the true squad at the core always bounces back and pulls through.
                 </div>
+                <div className="MobileAboutInfo text-center"><br></br>We're always hanging around Houston's Chinatown, so if you see us come mob with us!</div>
+                <div className="MobileAboutInfo text-center"><br></br>#ComeBackSzn</div>
                 <img
                     className="AboutImage d-block w-100"
                     src="https://cdn.discordapp.com/attachments/989767720801304606/992303865758236682/unknown.png"
