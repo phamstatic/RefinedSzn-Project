@@ -46,7 +46,7 @@ const SubRoster = () => {
                     </div>
                 </div>
                 <row>
-                    <div className="FollowLink">Follow the squad at https://www.instagram.com/refinedszn/</div>
+                    <div className="FollowLink">Follow the squad at instagram.com/refinedszn/</div>
                 </row>
             </div>
         </>
