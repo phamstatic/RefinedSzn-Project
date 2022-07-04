@@ -1,32 +1,36 @@
-.StickerHeader {
+.StickerHeader,
+.StickerSubHeader {
     color: white;
-    font-size: 1.5vw;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .StickerRow {
+}
+
+.StickerRow {
     padding: 50px 0px 20px 0px;
-  }
-  
-  .StickerBox {
+}
+
+.StickerBox {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
     padding: 0 !important;
     margin: 0 !important;
-  }
+}
 
-/* Extra small devices (phones, 600px and down) */
+/* Small devices (phones, 600px and down) */
 @media only screen and (max-width: 599px) {
     .StickerRow {
         padding: 10px 0px 0px 0px;
     }
 
-    .StickerHeader .RosterHeader {
+    .StickerHeader {
         font-size: 5vw;
+    }
+
+    .StickerSubHeader {
+        font-size: 2.5vw;
     }
 
     .StickerCaption {
@@ -35,13 +39,45 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .StickerHeader {
+        font-size: 25px;
+    }
+
+    .StickerSubHeader {
+        font-size: 15px;
+    }
+
+    .StickerCaption {
+        font-size: 15px;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .StickerHeader {
+        font-size: 30px;
+    }
+
+    .StickerSubHeader {
+        font-size: 18px;
+    }
+
+    .StickerCaption {
+        font-size: 18px;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .StickerHeader {
+        font-size: 35px;
+    }
+
+    .StickerSubHeader {
+        font-size: 20px;
+    }
+
     .StickerCaption {
         font-size: 20px;
     }
