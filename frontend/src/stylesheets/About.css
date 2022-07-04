@@ -99,12 +99,12 @@ div {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .AboutTitle {
-        font-size: 45px;
+        font-size: 42px;
     }
 
     .AboutInfo,
     .AboutTitleTop {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .AboutImage {
