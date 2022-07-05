@@ -46,7 +46,7 @@ const SubRoster = () => {
                     </div>
                 </div>
                 <row>
-                    <div className="FollowLink">Follow our squad's&nbsp;<a className="FollowHyperLink" href="https://github.com/phamstatic">instagram</a>&nbsp;to keep track of us!</div>
+                    <div className="FollowLink">Follow our squad's&nbsp;<a className="FollowHyperLink" href="https://www.instagram.com/refinedszn/">instagram</a>&nbsp;to keep track of us!</div>
                 </row>
             </div>
         </>
