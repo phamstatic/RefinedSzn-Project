@@ -1,6 +1,7 @@
 .SubRosterHeader,
 .MemberName,
-.FollowLink {
+.FollowLink,
+.FollowHyperLink {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +10,16 @@
 
 .MemberName {
     color: #222;
+    text-shadow: 0px 2px 4px #c94c4c;
+}
+
+.FollowLink,
+.FollowHyperLink {
+    color: black;
+}
+.FollowHyperLink:hover {
+    color: #222;
+    text-decoration: underline;
     text-shadow: 0px 2px 4px #c94c4c;
 }
 
@@ -22,10 +33,12 @@
         font-size: 5vw;
         padding-bottom: 20px;
     }
+
     .MemberName {
         font-size: 12px;
         padding: 4px;
     }
+
     .FollowLink {
         font-size: 12px;
         padding-top: 25px;
@@ -43,10 +56,12 @@
         font-size: 25px;
         padding-bottom: 20px;
     }
+
     .MemberName {
         font-size: 12px;
         padding: 4px;
     }
+
     .FollowLink {
         font-size: 15px;
         padding-top: 25px;
@@ -64,10 +79,12 @@
         font-size: 30px;
         padding-bottom: 20px;
     }
+
     .MemberName {
         font-size: 15px;
         padding: 5px;
     }
+
     .FollowLink {
         font-size: 15px;
         padding-top: 25px;
