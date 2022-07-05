@@ -3,7 +3,7 @@ import React from "react";
 import TopNavigation from "../components/TopNavigation";
 import Footer from "../components/Footer";
 
-const Error = () => {
+const Contact = () => {
     return (
         <>
             <TopNavigation />
@@ -16,5 +16,4 @@ const Error = () => {
     );
 }
 
-
-export default Error;
+export default Contact;

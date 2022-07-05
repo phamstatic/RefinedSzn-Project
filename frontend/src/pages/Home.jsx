@@ -1,6 +1,5 @@
 import React from "react"
 
-
 import TopNavigation from '../components/TopNavigation';
 import Gallery from '../components/Gallery';
 import Information from '../components/Information';

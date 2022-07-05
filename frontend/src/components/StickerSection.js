@@ -1,5 +1,5 @@
-import React from 'react';
-import '../stylesheets/StickerSection.css';
+import React from "react";
+import "../stylesheets/StickerSection.css";
 
 const StickerSection = () => {
     return (

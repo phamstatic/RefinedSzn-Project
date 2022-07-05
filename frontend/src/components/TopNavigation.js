@@ -1,5 +1,5 @@
-import React from 'react';
-import '../stylesheets/TopNavigation.css';
+import React from "react";
+import "../stylesheets/TopNavigation.css";
 
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
@@ -24,8 +24,7 @@ const TopNavigation = () => {
                         <Nav>
                             <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="#/">Home</Nav.Link>
                             <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="#/About">About Us</Nav.Link>
-                           
-                            <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="">Contact</Nav.Link>
+                            <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="#/Contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
 
