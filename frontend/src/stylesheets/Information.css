@@ -14,7 +14,6 @@
     transform: translate(-50%, -50%);
   }
 
-  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 599px) {
     .InfoImageMobileText {
         font-size: 12px;
@@ -22,21 +21,18 @@
       }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .InfoImageMobileText {
     font-size: 18px;
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .InfoImageMobileText {
     font-size: 20px;
   }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .InfoImageMobileText {
         font-size: 30px;
