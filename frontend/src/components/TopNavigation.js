@@ -6,7 +6,7 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 const TopNavigation = () => {
     return (
         <>
-            <div className="TopDisclaimer container-fluid bg-light">*At the moment, only the Home and About Us button work.*</div>
+            <div className="TopDisclaimer container-fluid bg-light">At the moment, only the Home and About Us button work.</div>
 
             <div className="NavigationBar navbar-dark">
                 <Navbar bg="black"
@@ -24,7 +24,7 @@ const TopNavigation = () => {
                         <Nav>
                             <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="#/">Home</Nav.Link>
                             <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="#/About">About Us</Nav.Link>
-                            <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="#/Contact">Contact</Nav.Link>
+                            <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="#/FAQ">FAQ</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
 
