@@ -24,7 +24,6 @@ const TopNavigation = () => {
                         <Nav>
                             <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="#/">Home</Nav.Link>
                             <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="#/About">About Us</Nav.Link>
-                            <Nav.Link className="NavButton px-5 text-white d-flex align-items-center" href="#/FAQ">FAQ</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
 

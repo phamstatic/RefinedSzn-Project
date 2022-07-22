@@ -27,10 +27,10 @@ const SubRoster = () => {
                         <div className="MemberName">ANTHONYYDO</div>
                     </div>
                     <div className="col">
-                        <div className="MemberName">HYNGUYEN_</div>
                         <div className="MemberName">DANSNEAK</div>
                         <div className="MemberName">NVTHON</div>
                         <div className="MemberName">EKDEVO</div>
+                        <div className="MemberName">_ATRAN</div>
                     </div>
                     <div className="col">
                         <div className="MemberName">JOHNGVYEN</div>
@@ -39,10 +39,10 @@ const SubRoster = () => {
                         <div className="MemberName">HUNG_N0</div>
                     </div>
                     <div className="col">
-                        <div className="MemberName">_ATRAN</div>
                         <div className="MemberName">TIMOS5.0</div>
                         <div className="MemberName">440ASHURA</div>
                         <div className="MemberName">S2KAP_</div>
+                        <div className="MemberName">BUI.ANH_JEFFREY</div>
                     </div>
                 </div>
                 <row>
